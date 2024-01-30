@@ -26,7 +26,7 @@ setup(name=               'SEPAL',
       maintainer=         '',
       maintainer_email=   '',
       license=		        'TBC',
-      packages=			      ['SEPAL'],
+      packages=			      ['SEPAL','SEPAL_utils'],
       python_requires=  	'>=3.7',
       install_requires =  install_reqs,	#the parsed requirements from requirements.txt
       entry_points=			  {},
