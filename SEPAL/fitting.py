@@ -16,7 +16,7 @@ import nibabel as nib
 import numpy as np
 from joblib import Parallel, delayed
 
-from utils.imaging import read_images, write_image
+from SEPAL_utils.imaging import read_images, write_image
 
 
 class Fitter(ABC):
