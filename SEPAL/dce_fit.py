@@ -25,7 +25,7 @@ from scipy.signal import argrelextrema
 from scipy.interpolate import interp1d
 from fitting import Fitter
 from pk_models import Patlak
-from utils.utilities import least_squares_global
+from SEPAL_utils.utilities import least_squares_global
 
 
 class SigToEnh(Fitter):
